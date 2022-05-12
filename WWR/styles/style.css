@@ -1,0 +1,100 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+nav {
+    text-align: center;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #E4DFDA;
+}
+
+header {
+    background-color: #5B4B49;
+}
+
+nav a:hover {
+  background-color: #D56F3E;
+}
+
+.book{
+    background-color: #2C666E;
+}
+
+.book:hover {
+    background-color: #D56F3E;
+}
+
+
+.join{
+    background-color: #2C666E;
+}
+
+.join:hover{
+  background-color: #D56F3E;
+}
+
+.msg h2 {
+    background-color: #2C666E;
+
+}
+.msg {
+    background-color: #5B4B49;
+}
+
+.msg p {
+    color: #E4DFDA
+}
+
+footer {
+    background-color: #5B4B49;
+}
+
+footer h3 {
+    color: #E4DFDA
+}
+
+footer a {
+    background-color: #2C666E;
+}
+
+footer a:hover {
+  background-color: #D56F3E;
+}
+
+.card-img {
+    width: 100%
+}
+
+.icon {
+    width: 80px
+}
+
+
