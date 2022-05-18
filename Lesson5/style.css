@@ -1,0 +1,25 @@
+h1, h2, h3{
+    margin: 0%;
+    text-align: center;
+}
+
+.top{
+    background-color: red;
+    margin-left:25%;
+    margin-right: 25%;
+    padding: 3%
+}
+
+.middle{
+    background-color: blue;
+    margin-left:15%;
+    margin-right: 15%;
+    padding: 6%
+}
+
+.bottom{
+    background-color: green;
+    margin-left:8%;
+    margin-right: 8%;
+    padding: 9%
+}
