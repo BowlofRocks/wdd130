@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Staatliches&display=swap');
+
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+header {
+    background-color: #5B4B49;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    text-align: left;
+    font-family: Staatliches, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+nav a{
+    padding: 50px;
+    margin-top: 10%;;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:link{
+    color: #E4DFDA;
+}
+
+nav a:active{
+    color: #E4DFDA;
+}
+
+nav a:active{
+    color: #E4DFDA;
+}
+
+nav a:visited{
+    color: #E4DFDA;
+}
+
+nav a:hover {
+  background-color: #D56F3E;
+}
+
+body {
+    background-color: #E4DFDA;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    font-family: Staatliches, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ 
+.salmon_card{
+    background-color: #2C666E;
+    border-style: solid
+}
+
+
+footer {
+    background-color: #5B4B49;
+    font-family: Roboto Condensed, Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: #E4DFDA
+}
+
+footer a {
+    background-color: #2C666E;
+}
+
+footer a:hover {
+  background-color: #D56F3E;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
