@@ -56,19 +56,69 @@ body {
 }
 
 #title{
+    background-color: #D56F3E;
+    border-style: solid;
     font-family: Staatliches, Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom:10px ;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
 }
 
-main section{
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap:20px 50px;
+}
+
+main div{
     text-align: center;
     font-family: Roboto Condensed, Helvetica, sans-serif;
     font-size: 20px;
 }
  
-.salmon_card{
-    background-color: #2C666E;
-    border-style: solid
+
+.salmon-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#salmon-text{
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+
+
+
+.desolation-card{
+    grid-column: 2/3;
+    grid-row:2/2;
+
+    
+}
+
+#desolation-text{
+    background-color: #E4DFDA;
+    grid-column: 1/2;
+    grid-row:2/2;
+}
+
+
+
+.canyon-card{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+#canyon-text{
+    background-color: #E4DFDA;;
+    grid-column: 2/3;
+    grid-row: 4/5;
 }
 
 
@@ -76,7 +126,7 @@ footer {
     background-color: #5B4B49;
     font-family: Roboto Condensed, Helvetica, sans-serif;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
