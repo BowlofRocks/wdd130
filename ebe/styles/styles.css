@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Nanum+Gothic&family=Nuosu+SIL&display=swap');
+
+
+
+body{
+    background-color: #E1A18E;
+}
+
+/* content div */
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+/*header with grid */
+
+.header-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#top-picture{
+    height: 480px;
+    width: 1270px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#brand-title{
+    color: #C4AC62;
+    font-family: Nuosu SIL, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 150px;
+    z-index: 1;
+    
+}
+
