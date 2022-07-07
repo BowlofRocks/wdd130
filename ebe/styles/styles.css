@@ -48,6 +48,8 @@ nav{
 
 }
 
+/* sticky component */
+
 #nav-color{
     background-color: #E1A18E;;
     display: flex;
@@ -60,6 +62,8 @@ nav{
     border-bottom: solid;
     border-color: #E2E1CE;
 }
+
+/* sticky component */
 
 a:link{
     color:#E2E1CE;
@@ -83,19 +87,19 @@ a:active{
 }
 
 #home{
-    font-size: 45px;
+    font-size: 35px;
     font-family: Playfair Display;
-    margin-left: 60px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-right: 70px;
     grid-column:1/2;
     grid-row:1/2;
 }
 
 #portfollio{
     font-family: Playfair Display;
-    font-size: 45px;
-    margin-left: 50px;
-    margin-right: 40px;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-right: 70px;
     grid-column:2/3;
     grid-row:1/2;
 }
@@ -108,19 +112,18 @@ a:active{
 
 #contact{
     font-family: Playfair Display;
-    font-size: 45px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-right: 40px;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-right: 70px;
     grid-column:6/7;
     grid-row:1/2;
 }
 
 #site-plan{
     font-family: Playfair Display;
-    font-size: 45px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-right: 70px;
     grid-column:7/8;
     grid-row:1/2;
 }
