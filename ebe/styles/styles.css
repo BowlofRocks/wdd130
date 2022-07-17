@@ -268,7 +268,7 @@ h2{
 
 }
 
-
+/* portfollio folder */
 
 #portfolio_content{
     margin: 0;
@@ -329,5 +329,104 @@ h2{
 
 }
 
+/* Contact us styling */
 
+#nav-color-nonstick{
+    background-color: #E1A18E;;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: #E2E1CE;
+}
 
+#lets-chat{
+    font-size: 40px;
+    font-family: Playfair Display;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under ;
+}
+
+.forum-color{
+    background-color: #ACBDDB;
+}
+
+.forum-content{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.forum-email, .forum-elise-email, .forum-elise-phone, .forum-phone{
+    color: #E2E1CE;
+    font-size: 15px;
+}
+
+#forum-email{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-family: Charis SIL;
+    color: #E2E1CE;
+    font-size: 15px;
+    margin-left: 20%;
+}
+
+.forum-elise-email{
+    grid-column: 1/ 3;
+    grid-row: 1/2;
+    margin-top: 40px;
+    margin-left: -16%;
+    margin-right: 0;
+}
+
+.forum-phone{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.forum-elise-phone{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 0;
+}
+
+.forum-social{
+    grid-column: 4/6;
+    grid-row: 1/2;
+    margin-left: 150px;
+    margin-top: 10px;;
+
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.form-flex-container{
+    font-family: Charis SIL;
+    color: #E2E1CE;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.first-name{
+    padding:20px;
+    margin-right: 12%;
+}
+
+.last-name{
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.forum-email{
+    padding: 20px;
+}
+
+.input-message{
+    padding: 20px;
+}
